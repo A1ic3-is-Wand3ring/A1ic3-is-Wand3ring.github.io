@@ -152,7 +152,7 @@ $(document).ready(function() {
                                      duration   :1500,
                                      delay      :1100, 
                                      easing     :'ease-in-out',});                                  
-    ScrollReveal().reveal('#game1',{ origin : 'top',
+    ScrollReveal().reveal('#game11',{ origin : 'top',
                                      duration   :1500,
                                      delay      :1200, 
                                      easing     :'ease-in-out',});
@@ -160,17 +160,17 @@ $(document).ready(function() {
                                      duration   :1500,
                                      delay      :1300, 
                                      easing     :'ease-in-out',}); 
-    ScrollReveal().reveal('#game2',{ origin : 'top',
+    ScrollReveal().reveal('#game12',{ origin : 'top',
                                      duration   :1500,
                                      delay      :1400, 
                                      easing     :'ease-in-out',});
     ScrollReveal().reveal('#tool',{ origin : 'left',
                                     duration   :1500,
-                                    delay      :1100, 
+                                    delay      :1500, 
                                     easing     :'ease-in-out',})
     ScrollReveal().reveal('#tool1',{origin : 'left',
                                     duration   :1500,
-                                    delay      :1100, 
+                                    delay      :1600, 
                                     easing     :'ease-in-out',})
                                                                     // document ready  
     });

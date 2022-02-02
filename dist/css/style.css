@@ -312,17 +312,7 @@ color: #a6ff00;
   position: fixed;
 }
 
-#game1{
-  background-image: url();
-  z-index: 100;
-  position: fixed;
-}
 
-#game2{
-  background-image: url();
-  z-index: 100;
-  position: fixed;
-}
 #infla{
 background-image: url();
 z-index: 100;
