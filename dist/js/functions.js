@@ -166,11 +166,11 @@ $(document).ready(function() {
                                      easing     :'ease-in-out',});
     ScrollReveal().reveal('#tool',{ origin : 'left',
                                     duration   :1500,
-                                    delay      :1500, 
+                                    delay      :1100, 
                                     easing     :'ease-in-out',})
     ScrollReveal().reveal('#tool1',{origin : 'right',
                                     duration   :1500,
-                                    delay      :1600, 
+                                    delay      :1200, 
                                     easing     :'ease-in-out',})
 
     ScrollReveal().reveal('#con',{origin : 'top',
