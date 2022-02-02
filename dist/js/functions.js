@@ -168,9 +168,19 @@ $(document).ready(function() {
                                     duration   :1500,
                                     delay      :1500, 
                                     easing     :'ease-in-out',})
-    ScrollReveal().reveal('#tool1',{origin : 'left',
+    ScrollReveal().reveal('#tool1',{origin : 'right',
                                     duration   :1500,
                                     delay      :1600, 
+                                    easing     :'ease-in-out',})
+
+    ScrollReveal().reveal('#con',{origin : 'top',
+                                    duration   :800,
+                                    delay      :400,
+                                    distance : '80%', 
+                                    easing     :'ease-in-out',})
+    ScrollReveal().reveal('.con1',{
+                                    interval   :400,
+                                    delay      :400,
                                     easing     :'ease-in-out',})
                                                                     // document ready  
     });
