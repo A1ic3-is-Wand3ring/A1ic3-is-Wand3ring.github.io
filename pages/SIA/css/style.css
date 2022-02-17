@@ -1,6 +1,7 @@
 *{
 	/*font: */
 	/*height: 100%;*/
+	/* outline: 1px solid red; */
 
 }
 body{
@@ -79,7 +80,9 @@ section{
 	margin-top: 0;
 }
 #sec2{
-	padding: 4rem
+	padding: 4rem;
+	height: 400px;
+	
 }
 #slider1{
 	max-height: 650px;
@@ -99,7 +102,7 @@ section{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	height: 100%;
+	height: 400px;
 	top: 25%;
 }
 #head{
@@ -128,6 +131,9 @@ section{
 	/*width: 320px;*/
 	/*padding:0;*/
 	
+}
+#card_txt{
+	height: 650px;
 }
 #card_img{
 	height: 400px;
