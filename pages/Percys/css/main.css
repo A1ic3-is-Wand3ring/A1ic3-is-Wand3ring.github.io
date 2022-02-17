@@ -1,0 +1,109 @@
+/*colors
+#003366- navy
+#0191C8- deep blue
+#74C2E1- light blue
+#E0E9E9- Grey
+#FF1A00-Red
+#D0EAFF- baby
+*/
+
+
+/* Photo by Chevanon Photography from Pexels: lamb */ 
+/* Photo by José Ignacio Pompé on Unsplash: Sliced meat */
+/* Image by <a href="https://pixabay.com/users/klausneu-834729/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2344015">Klaus Neumann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2344015">Pixabay</a> */
+
+
+
+.btn-grey{
+    border-color: #e0e0e0 !important;
+}
+
+.btn-grey:hover{
+    background-color: #e0e0e0;
+}
+
+/*HERO*/
+
+#hero{
+	/*height: 450px;*/
+    background: url(../media/img/steak-4308529_1920.jpg)  no-repeat center top;
+    background-size: cover;
+    min-height: 94%;
+    color: aliceblue; 
+    font-family: 'Rancho, cursive';
+}
+
+.redline{
+    /* background-color: #ff1a00; */
+    border-color: #ff1a00;
+}
+#head1{
+    font-family: 'Josefin Slab', serif;
+}
+
+#head2{
+    font-family: 'Rancho', cursive;
+}
+.container-hero{
+    max-width: 980px;
+}
+
+
+/* NAV */
+nav{
+    background-color: #003366;
+    font-family: 'Rancho', cursive;
+    max-width: 100%;
+}
+.navbar-brand{
+    min-inline-size: .5rem !important;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  
+}
+
+/* SERVICES */
+#services{
+    background-color: #003366;
+    min-width: 100%;
+    min-height: 60%;
+    
+}
+
+/* ORDER */
+
+#order{
+    
+    min-width: 100%;
+    min-height: 40%;
+    padding: 50px;
+    
+
+
+}
+#border{
+    background-color: #003366;
+    padding: 100px;
+    
+}
+
+/* about */
+#about{
+    background: url(../media/img/full-grill-full-of-meat-and-veggies.jpg)  no-repeat center top;
+    background-size: cover;
+    min-height: 680px;
+    max-height: 80%;
+}
+
+
+/* FOOTER */
+ footer{
+     background-color: #ff1a00;
+     text-align: justify;
+     
+ }
+
+ footer ul{
+    list-style: none !important;
+
+ }

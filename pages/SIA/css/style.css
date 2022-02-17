@@ -1,0 +1,182 @@
+*{
+	/*font: */
+	/*height: 100%;*/
+
+}
+body{
+	height: 100%;
+
+}
+section{
+	/*height: 750px;*/
+	min-height: 400px;
+	max-height: 3200px;
+}
+.center_align{
+	text-align: center;
+}
+.just{
+	text-align: justify-all;
+}
+.line{
+	display: inline-block !important;
+}
+.short{
+	width: 4rem
+}
+.med{
+	width: 6rem;
+}
+
+
+
+
+
+
+/*NAV*/
+#logo{ 
+	height:150px;
+	width:250px;
+}
+#home{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.jumbotron{
+	background-color: inherit !important;
+}
+
+.nav-link{
+	color: black ;
+}
+#link_ani{
+
+}
+#link_ani:hover{
+	border-bottom: 4px solid #88316F;
+	color: #88316F;
+	border-radius: 0;
+}
+.nav-pills .nav-link.active{
+	background-color: none;
+	
+}
+#expand{
+	min-width: 100% !important;
+}
+#social-media:hover{
+	color: #88316F;
+	/*background-color: pink;*/
+
+}
+
+
+
+
+/*SLIDER*/
+#sec1{
+	padding-top: 0;
+	margin-top: 0;
+}
+#sec2{
+	padding: 4rem
+}
+#slider1{
+	max-height: 650px;
+	background-color: orange;
+}
+.carousel-item{
+	max-height: 650px;
+}
+
+
+
+/*MISSION*/
+
+#h1_block{
+	background-image: url(../media/img/6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100%;
+	top: 25%;
+}
+#head{
+	font-size: 4.5rem;
+	color: white;
+	font-weight: 500 !important;
+	line-height: 1.2
+
+}
+.card{
+	border: none !important;
+	width: 319.98px;
+	padding: 0;
+	margin: 0;
+}
+#card_contain{
+	min-width: 100%;
+	vertical-align: center;
+	/*padding-left: -15px;*/
+	padding-top: 4rem;
+
+}
+#card_txt img{
+	height: 350px;
+	/*display: inline-block !important;*/
+	/*width: 320px;*/
+	/*padding:0;*/
+	
+}
+#card_img{
+	height: 400px;
+}
+
+
+
+/*TEAM*/
+
+
+
+
+/*FOOTER*/
+
+#footer{
+	height: 250px;
+	background-color: #88316F;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+}
+#contact{
+	display: inline-flex !important;
+
+}
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+
+  #h1_block{
+  	color: #fff;
+  	font-size: 1rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}

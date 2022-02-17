@@ -1,0 +1,42 @@
+body{
+    
+}
+/* NAV */
+nav{
+    background-color: #003366;
+    font-family: 'Rancho', cursive;
+    max-width: 100%;
+}
+
+#main{
+    min-height: 90%;
+}
+
+#btn-nav:active{
+    background-color: #ff1A00;
+}
+
+#head1{
+    font-family: 'Josefin Slab', serif;
+}
+
+#head2{
+    font-family: 'Rancho', cursive;
+}
+
+#head3{
+    font-family: 'Vast Shadow', cursive;
+}
+
+#logoSide{
+    color: #ff1A00;
+}
+.show-cart li {
+    display: flex;
+  }
+
+  .card-des{
+      width: 500px;
+      height: 450px;
+  }
+

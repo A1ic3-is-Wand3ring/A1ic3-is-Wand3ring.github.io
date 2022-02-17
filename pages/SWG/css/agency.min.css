@@ -1,0 +1,28 @@
+/*!
+ * Start Bootstrap - Agency v4.1.1 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */p{line-height:1.75}a{color:white}a:hover{color:#005999}section{padding:100px 0}
+ section h2.section-heading{font-size:40px;margin-top:0;margin-bottom:15px}
+ section h3.section-subheading{font-size:16px;font-weight:400;font-style:italic;margin-bottom:75px;text-transform:none;}
+
+ @media (min-width:768px){
+ 	section{padding:150px 0}}
+
+ .btn{font-weight:700;}
+ .btn-xl{font-size:18px;padding:20px 40px}
+/* .btn-primary{background-color:#fed136;border-color:#fed136}*/
+ .btn-primary:active,.btn-primary:focus,/*.btn-primary:hover{background-color:#59b0d9!important;*/border-color:#fec810!important;color:#fff}
+ .btn-primary:active,.btn-primary:focus{box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important}::-moz-selection{background:#fed136;text-shadow:none}::selection{background:#fed136;text-shadow:none}
+ img::selection{background:0 0}img::-moz-selection{background:0 0}
+ section#contact{background-color:#f8f9fa;background-repeat:no-repeat;background-position:center}
+ section#contact .section-heading{color:#005999}section#contact .form-group{margin-bottom:25px}
+ section#contact .form-group input,section#contact .form-group textarea{padding:20px}
+ section#contact .form-group input.form-control{height:auto}
+ section#contact .form-group textarea.form-control{height:248px}
+ section#contact .form-control:focus{border-color:#005999;box-shadow:none}
+ section#contact ::-webkit-input-placeholder{font-weight:700;color:#005999;}
+ section#contact :-moz-placeholder{font-weight:700;color:#005999;}
+ section#contact ::-moz-placeholder{font-weight:700;color:#005999;}
+ section#contact :-ms-input-placeholder{font-weight:700;color:#005999;}
+ 

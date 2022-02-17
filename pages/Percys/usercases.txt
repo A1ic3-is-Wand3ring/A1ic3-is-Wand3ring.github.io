@@ -1,0 +1,7 @@
+scenarios :
+
+- user should be able to view products
+- create a profile
+- click items on product list to add to cart
+- view shoping cart 
+- delete thinhs from cart 

@@ -1,0 +1,378 @@
+/*colors
+#003366- navy
+#0191C8- deep blue
+#74C2E1- light blue
+#E0E9E9- Grey
+#FF1A00-Red
+
+*/
+/* credits
+<div>Icons made by <a href="https://www.flaticon.com/authors/nhor-phai" title="Nhor Phai">Nhor Phai</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> messages.attribution.is_licensed_by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> messages.attribution.is_licensed_by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+Image by Manfred Richter from Pixabay
+Image by RitaE from Pixabay
+Image by Andreas Lischka from Pixabay
+Image by Waldrebell from Pixabay 
+Image by Lebensmittelfotos from Pixabay
+Image by eKokki from Pixabay
+Image by vika-imperia550 from Pixabay
+Image by Reinhard Thrainer from Pixabay
+Image by Ann1992 from Pixabay 
+Image by Salah Ait Mokhtar from Pixabay
+Photo by Shopify Partners from Burst
+Photo by Sheila Pedraza Burk from Burst
+*/
+
+
+@font-face {
+	font-family: 'Josefin Slab', serif;
+	src: url('../fonts\(VastJoseRanc\)/Josefin_Slab/JosefinSlab-BoldItalic.ttf');
+}
+@font-face {
+font-family: 'Rancho, cursive';
+src: url('../fonts\(VastJoseRanc\)/Rancho/Rancho-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Vast Shadow', cursive;
+src: url('../fonts\(VastJoseRanc\)/Vast_Shadow/VastShadow-Regular.ttf');
+}
+
+/* colors */
+
+.navy{
+	color: #003366;
+}
+.red{
+	color: #FF1A00;
+}
+.deepBlue{
+	color: #0191C8;
+}
+.lightBlue{
+	color: #74C2E1;
+}
+.grey{
+	color: #e0e9e9;
+}
+.baby{
+	color: #D0EAFF;
+}
+
+	/*font: 
+	
+
+    font-family: 'Vast Shadow', cursive;
+
+    font-family: 'Josefin Slab', serif;
+
+    font-family: 'Rancho', cursive;
+
+
+	*/
+	/*height: 100%;*/
+
+
+body,html{
+	height: 100%;
+	background-color: #e0e9e9 !important;
+	
+}
+
+p{
+	font-family: 'Josefin Slab', serif;
+}
+
+h1{
+	font-family: 'Vast Shadow', cursive;
+}
+
+h2,h3{
+	font-family: 'Josefin Slab', serif;
+}
+
+h4,h5,h6{
+	font-family: 'Rancho', cursive;
+
+}
+section{
+	/*height: 750px;*/
+	min-height: 400px;
+	max-height: 3200px;
+}
+
+.white-space-xs{
+	height: 50px;
+}
+.white-space{
+	height: 100px;
+}
+.center_align{
+	text-align: center;
+}
+.just{
+	text-align: justify-all;
+}
+.line{
+	display: inline-block !important;
+}
+.short{
+	width: 4rem
+}
+.med{
+	width: 6rem;
+}
+
+section{
+	max-width: 100%;
+}
+
+
+
+/*NAV*/
+#logo{ 
+	height:100px;
+	width:150px;
+}
+#home{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+
+.nav-link{
+	color: #FF1A00 ;
+	width: 160px;
+	/* margin-left: 15px; */
+	text-align: center;
+	font-size: 1.25em;
+	letter-spacing: 0.3em
+}
+#link_ani{
+	font-family: 'Rancho', cursive;
+	font-size: 2em;
+	padding: 15px;
+}
+.nav-link:hover{
+
+	border-bottom:  2px solid #00b6ff;
+	color:#0191C8;
+	border-radius: 0.5;
+}
+
+
+.link_h{
+	font-size: 3em;
+}
+.link_h1{
+	color: #FF1A00;
+	font-size: 2em;
+	font-family: 'Rancho', cursive;
+}
+
+.link_h2{
+	color: #003366;
+	font-size: 1.5em;
+	font-family: 'Rancho', cursive;
+}
+.link_h3{
+	color: #74C2E1;
+	font-size: 3em;
+	font-family: 'Rancho', cursive;
+}
+.link_h4{
+	color: #0191C8;
+	font-size: 1em;
+	font-family: 'Rancho', cursive;
+}
+
+
+#expand{
+	min-width: 100% !important;
+}
+#social-media:hover{
+	color: #00b6ff;
+	/*background-color: pink;*/
+
+}
+
+
+
+
+/*SLIDER*/
+#sec1{
+	padding-top: 0;
+	margin-top: 0;
+}
+#sec2{
+	padding: 4rem
+}
+#slider1{
+	max-height: 650px;
+	background-color: #00b6ff;
+}
+.carousel-item{
+	max-height: 650px;
+}
+
+
+
+/*MISSION*/
+
+#h1_block{
+	background-image: url();
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100%;
+	top: 25%;
+}
+#head{
+	font-size: 4.5rem;
+	color: white;
+	font-weight: 500 !important;
+	line-height: 1.2
+
+}
+
+.add-to-cart{
+	width: 175px;
+}
+.card_basic{
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	background-color: aliceblue;
+	width: 215px;
+}
+#card_contain{
+	min-width: 100%;
+	vertical-align: center;
+	/*padding-left: -15px;*/
+	padding-top: 4rem;
+
+}
+#card_txt img{
+	height: 350px;
+	/*display: inline-block !important;*/
+	/*width: 320px;*/
+	/*padding:0;*/
+	
+}
+
+#card_img{
+	height: 400px;
+}
+
+#beef{
+	background-color:#003366;
+	opacity: 0.9;
+}
+#lamb{
+	background-color: #0191C8;
+}
+#chicken{
+	background-color: #74C2E1;
+}
+
+#other{
+	background-color: #D0EAFF;
+}
+
+.product_card{
+	width: 100%;
+	
+
+}
+
+/*TEAM*/
+
+
+
+
+/*FOOTER*/
+
+#footer{
+	height: 250px;
+	background-color: #00b6ff;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+}
+#contact{
+	display: inline-flex !important;
+
+}
+
+html {
+  font-size: 1rem;
+  
+}
+
+a,body{
+	font-family: 'Josefin Slab', serif !important
+}
+
+@media (min-width: 768px) {
+	.navbar-brand
+		{
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+/* X Extra small devices (phones, 375px and down) */
+@media only screen and (max-width: 475px) {
+	.card_basic{
+		min-width: 190px;
+		max-height: 100px;
+		padding: 0.5px;;
+	}
+
+	
+}	
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {}
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {} 
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+
+  #h1_block{
+  	color: #fff;
+  	font-size: 1rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}

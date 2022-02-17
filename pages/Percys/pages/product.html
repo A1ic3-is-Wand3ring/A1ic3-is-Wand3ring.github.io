@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Percy's Butchery </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<!-- CSS -->
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/product.css'>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+	  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css.map.css">
+	  <link rel="stylesheet" type="text/css" href="../css/ani.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Rancho|Vast+Shadow" rel="stylesheet"> 
+      
+  <!-- Custom styles for this template -->
+  <link href="../css/shop-homepage.css" rel="stylesheet">
+  <link href="../css/shop-item.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- NAVI -->
+  <nav class="navbar fixed-top navbar-expand-sm">
+      
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+      <div class="collapse navbar-collapse collapsibleNavbar" id="">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>    
+            </ul>
+       </div>
+
+       <a class="navbar-brand mx-auto" href="#"><img src="../media/icn/Logo(transparent).png" width="64" height="64" class="d-inline-block align-top"></a>
+     
+       <div class="navbar-collapse collapse collapsibleNavbar" id=""> 
+            <ul class="nav navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#order">Order</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Prep</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li> 
+              <li>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button>
+              </li>   
+            </ul>
+      </div>  
+  </nav> 
+  <br>
+  <br>
+  <br>
+  <br>
+      <!-- Page Content -->
+  <div class="container">
+
+        <div class="row">
+   
+    
+          <div id="sidebar" class="col-lg-3 ">
+              <br>
+              <br>
+              <br> 
+              <br>
+              <br>
+              <br> 
+            <a href="../main.html"><img id="logoSide" class="img-fluid mx-auto d-block" src="../media/icn/Logo(transparent).png" width="140" height="140" ></a>
+            <h1 id="head1" class="my-4 display-4 mx-auto d-block text-center">Pheseki</h1>
+            <div class="btn-group-state" role="group" data-toggle="button">
+              <button class="btn btn-outline-danger active collapsed btn-block" type="button" data-toggle="collapse" data-target="#beeflist" aria-expanded="true" aria-controls="beeflist">
+                 Beef
+              </button>
+              <button class="btn btn-outline-danger  collapsed btn-block" data-toggle="collapse" data-target="#lamblist" aria-expanded="false" aria-controls="lamblist" aria-pressed="true">
+                lamb
+              </button> 
+              <button class="btn btn-outline-danger  collapsed btn-block" type="button" data-toggle="collapse" data-target="#chiclist" aria-expanded="false" aria-controls="chiclist">
+                Chicken
+              </button>
+              <button class="btn btn-outline-danger  collapsed btn-block" type="button"data-toggle="collapse" data-target="#otherlist" aria-expanded="false" aria-controls="otherlist">
+                Other Products
+              </button>
+            </div>
+    
+          </div>
+          <!-- /.col-lg-3 -->
+    
+          <div class="col-lg-9">
+            <h1 id="head2" class=" display-3 text-center">Product List</h1>
+            <div id="carouselExampleIndicators" class="carousel slide mt-0 mb-0 " data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                        <div class="card mt-4">
+                                <img class="card-img-top img-fluid" src="../media/img/louis-hansel-JeJ5IpCG1mw-unsplash.jpg" alt="">
+                                <div class="card-body">
+                                  <h3 class="card-title">Product Name</h3>
+                                  <h4>$24.99</h4>
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
+                                  <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+                                  4.0 stars
+                                </div>
+                              </div>
+                              <!-- /.card -->
+                </div>
+                <div class="carousel-item">
+                        <div class="card mt-4">
+                                <img class="card-img-top img-fluid" src="../media/img/louis-hansel-JeJ5IpCG1mw-unsplash.jpg" alt="">
+                                <div class="card-body">
+                                  <h3 class="card-title">Product Name</h3>
+                                  <h4>$24.99</h4>
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
+                                  <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+                                  4.0 stars
+                                </div>
+                              </div>
+                              <!-- /.card -->
+                </div>
+                <div class="carousel-item">
+                        <div class="card mt-4">
+                                <img class="card-img-top img-fluid" src="../media/img/louis-hansel-JeJ5IpCG1mw-unsplash.jpg" alt="">
+                                <div class="card-body">
+                                  <h3 class="card-title">Product Name</h3>
+                                  <h4>$24.99</h4>
+                                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
+                                  <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+                                  4.0 stars
+                                </div>
+                              </div>
+                              <!-- /.card -->
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <div>
+            <!--BEEF  -->
+            <div id="beeflist" class="collapse show">
+              <div class="row">
+                  <h3 class="d-flex pl-3">BEEF</h3>
+              </div> 
+              <div class="row">
+                <div class="beefcard">
+                  <div class="col-lg-8 col-md-6 mb-4 d-inline-flex mx-auto">
+                    <img class="img-fluid card-des mx-auto" src="../media/icn/meat.svg">
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4 d-inline-flex">
+                    <ul>
+                      <li class=" mb-1 d-inline-flex"><a href="#" data-name="Chuck" data-price="84.99" class="add-to-cart btn btn-primary">Add to cart</a></li>
+                      <li class=" mb-1 d-inline-flex"><a href="#" data-name="Chuck" data-price="84.99" class="add-to-cart btn btn-primary">Add to cart</a></li>
+                      <li class=" mb-1 d-inline-flex"><a href="#" data-name="Chuck" data-price="84.99" class="add-to-cart btn btn-primary">Add to cart</a></li>
+                      <li class=" mb-1 d-inline-flex"><a href="#" data-name="Chuck" data-price="84.99" class="add-to-cart btn btn-primary">Add to cart</a></li>
+                    </ul>
+                  </div>
+                  
+                </div>
+              </div>
+              
+              <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="itm h-100">
+                        <a href="#"><img class="card-img-top" src="../media/icn/beef.svg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Chuck</a>
+                          </h4>
+                          <h5>R84.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted"><a href="#" data-name="Chuck" data-price="84.99" class="add-to-cart btn btn-primary">Add to cart</a>&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lukas-budimaier-mji7hdjxEwo-unsplash.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Brisket</a>
+                          </h4>
+                          <h5>R79.99</h5>
+                          <!-- <p class="card-text"></p> -->
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lukas-budimaier-mji7hdjxEwo-unsplash.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Wing Rib</a>
+                          </h4>
+                          <h5>R89.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lukas-budimaier-mji7hdjxEwo-unsplash.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">T-bone</a>
+                          </h4>
+                          <h5>R94.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lukas-budimaier-mji7hdjxEwo-unsplash.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Short Ribs</a>
+                          </h4>
+                          <h5>R79.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lukas-budimaier-mji7hdjxEwo-unsplash.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Rump Steak</a>
+                          </h4>
+                          <h5>R110.00</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lukas-budimaier-mji7hdjxEwo-unsplash.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Tenderised Steak</a>
+                          </h4>
+                          <h5>R100.00</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lukas-budimaier-mji7hdjxEwo-unsplash.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Stewing Beef</a>
+                          </h4>
+                          <h5>R69.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lukas-budimaier-mji7hdjxEwo-unsplash.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Strifry (Goulash)</a>
+                          </h4>
+                          <h5>R105.00</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                  </div>
+            </div>
+            <!-- LAMB -->
+             <div id="lamblist" class="collapse" >
+                <div class="row">
+                    <h3 class="d-flex pl-3">Lamb</h3>
+                </div>  
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lamb-cutlet-3276080_1920.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Chops</a>
+                          </h4>
+                          <h5>R135.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lamb-cutlet-3276080_1920.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Ribs</a>
+                          </h4>
+                          <h5>R110.00</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lamb-cutlet-3276080_1920.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Leg of Lamb</a>
+                          </h4>
+                          <h5>R135.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lamb-cutlet-3276080_1920.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Lamb stew</a>
+                          </h4>
+                          <h5>R120.00</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <!-- <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/lamb-cutlet-3276080_1920.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Item Five</a>
+                          </h4>
+                          <h5>$24.99</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div> -->
+          
+                    <!-- <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src=".../media/img/lamb-cutlet-3276080_1920.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Item Six</a>
+                          </h4>
+                          <h5>$24.99</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div> -->
+          
+                  </div>
+            </div> 
+            <!--CHICKEN  -->
+            <div id="chiclist" class="collapse">
+                <div class="row">
+                    <h3 class="d-flex pl-3">CHICKEN</h3>
+                </div>  
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/stockvault-raw-chicken-legs252407.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Drumsticks</a>
+                          </h4>
+                          <h5>R230 (5kg)</h5>
+                          <p class="card-text">R70 (1,5kg)</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/stockvault-raw-chicken-legs252407.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Wings</a>
+                          </h4>
+                          <h5>R230 (5kg)</h5>
+                          <p class="card-text">R70 (1,5kg)</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/stockvault-raw-chicken-legs252407.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Thighs</a>
+                          </h4>
+                          <h5>R230 (5kg)</h5>
+                          <p class="card-text"> </p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/stockvault-raw-chicken-legs252407.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">1/4 Leg</a>
+                          </h4>
+                          <h5>R170 (5kg)</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/stockvault-raw-chicken-legs252407.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Fillet</a>
+                          </h4>
+                          <h5>R64.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/stockvault-raw-chicken-legs252407.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Full Chicken</a>
+                          </h4>
+                          <h5>R41.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                  </div>
+            </div>
+
+            <div id="otherlist" class="collapse">
+                <div class="row">
+                    <h3 class="d-flex pl-3">OTHER PRODUCTS</h3>
+                </div>  
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/the-sausage-891510_1920.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Mince</a>
+                          </h4>
+                          <h5>R79.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/the-sausage-891510_1920.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Boerewors</a>
+                          </h4>
+                          <h5>R81.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/the-sausage-891510_1920.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Beef Sausages</a>
+                          </h4>
+                          <h5>R85.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/the-sausage-891510_1920.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Beef Patty</a>
+                          </h4>
+                          <h5>R79.99</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/the-sausage-891510_1920.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Cold Meat</a>
+                          </h4>
+                          <h5>R125.00</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="../media/img/the-sausage-891510_1920.jpg" alt=""></a>
+                        <div class="card-body">
+                          <h4 class="card-title">
+                            <a href="#">Biltong</a>
+                          </h4>
+                          <h5>R300.00</h5>
+                          <p class="card-text"></p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                        </div>
+                      </div>
+                    </div>
+          
+                  </div>
+            </div>
+
+            </div>
+            <!-- /.row -->
+    
+          </div>
+          <!-- /.col-lg-9 -->
+    
+        </div>
+        <!-- /.row -->
+    
+         <!-- Modal -->
+          <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <table class="show-cart table">
+                    
+                  </table>
+                  <div>Total price: $<span class="total-cart"></span></div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Order now</button>
+                </div>
+              </div>
+            </div>
+          </div> 
+      </div>
+      <!-- /.container -->
+
+    <!-- JS -->
+     
+    <script src= "../js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src= "../js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src= "../js/bootstrap.bundle.min.js.map" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src='../js/script.js'></script>
+  </body>
+</html>
