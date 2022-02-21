@@ -16,7 +16,7 @@
   color: #c4ff0e;
 }
 
-.nonLink{
+.nonlink{
   cursor:none;
   pointer-events: none;
 }
