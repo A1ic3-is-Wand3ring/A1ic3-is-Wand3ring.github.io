@@ -1,29 +1,45 @@
-/* About */
+*{
+    /* outline: 1px solid red; */
+}
 
+/* About */
 #intro img{
     max-width: 320px;
     max-height: 320px;
 }
 /* Inflation */
+
+#curValue{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
 /* Commodity */
+#comValue{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
 .container-wrapper{
     width: 100%;
     height: 330px;
-    background: #000;
+    background: rgb(0,102,161);
+    background: linear-gradient(45deg, rgba(0,102,161,1) 0%, rgba(1,213,222,1) 51%, rgba(0,118,237,1) 100%); 
     display: flex;
 }
+
 
 .slanted1{
     width: calc( 50% - 40px) ;
     height: 100%;
-    background: #ff005b;
+    /* background: #00D3DC; */
 }
 
 .slanted2{
     width: calc( 50% + 40px );
     height: 100%;
-    background: #17274c;
-    border-left: 80px solid #ff005b;
+    /* background: #0066A1;
+    border-left: 80px solid #00D3DC; */
     border-bottom: 330px solid transparent;
     box-sizing: border-box;
 }

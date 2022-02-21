@@ -36,34 +36,93 @@
     </header>
     <section id="hero">
         <div class="px-4 py-5 text-center">
-            <img id="intro" class="d-block mx-auto mb-4 img-fluid" src="media/payment-method.png" alt="" width="240" height="240">
+            <img id="intro" class="d-block mx-auto mb-4 img-fluid" src="media/payment-method-2.png" alt="" width="240" height="240">
             <h1 class="display-5 fw-bold">Lets Talk Money</h1>
             <div class="col-lg-6 mx-auto">
               <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
               <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Inflation Calculator</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Commodity Calculator</button>
+                <button id="solid-btn" type="button" class="btn btn-primary btn-lg px-4 gap-3">Inflation Calculator</button>
+                <button id="outline-btn" type="button" class="btn btn-outline-secondary btn-lg px-4">Commodity Calculator</button>
               </div>
             </div>
           </div>
     </section>
     <!-- Inflation Calculator -->
     <section id="InflaCalc">
-        <div class="container">
+        <div class="container p-md-5 m-md-5">
           <div id="sec2" class="container">
             <div class="wrapper center_align">
-              <h1>What are your rands worth?</h1>
-              <h3>
-                Find out here. Use the consumer price index (CPI), which measures the average change in prices over time using a market basket of goods and services, to see how far your rands goes today, compared with previous years. 
-              </h3>
+              <h1 class="display-5 fw-bold">Know the worth of your rand!</h1>
+              <p class="lead mb-4"> 
+                Use the inflation calcuator below, 
+                which calculates the average change in consumer prices over time using a 
+                basket of goods and services (consumer price index), to see how far your rands goes today, 
+                 compared with previous years. 
+              </p>
             </div>
           </div>
               <form>
-                <div class="row">
+                <div class="row p-3">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-1">
+                    <label class="float-end" for="rands">R</label>
+                  </div>
+                  <div class="col-md-3">
+                    <input class="form-control" type="number" id="rands" name="rands">
+                  </div>
+                  <div class="col-md-1">
+                    <label class="float-end" for="yearSelected">in</label>
+                  </div>
+                  <div class="col-md-1">
+                    <select class="form-control" id="yearSelected">
+                      <option>1960</option>
+                      <option>1961</option>
+                      <option>1962</option>
+                      <option>1963</option>
+                      <option>1964</option>
+                      <option>1965</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row text-center p-3">
+                  <span>Is worth</span>
+                </div>
+                <div class="row p-3">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-1">
+                    <label class="float-end" for="curValue">R</label>
+                  </div>
+                  <div class="col-md-4">
+                    <input class="form-control" type="text" id="curValue" name="curValue" disabled>
+                  </div>
+                  <div class="col-md-4"></div>
+                </div>
+                <div class="row p-3">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-2">
+                    <label class="float-end" for="yearSelected">in</label>
+                  </div>
+                  <div class="col-md-1">
+                    <select class="form-control" id="yearWanted">
+                      <option>2015</option>
+                      <option>2016</option>
+                      <option>2017</option>
+                      <option>2018</option>
+                      <option>2019</option>
+                      <option>2020</option>
+                    </select>
+                  </div>
+                  <div class="col-md-4"></div>
+                </div>
+                <div class="px-auto text-center pb-2">
+                  <button class="btn btn-primary mx-auto" type="button" onclick="test()"> calculate </button>
+                </div>
+                <!-- <div class="row">
                     <div class="col-md-3"></div>    
                 <div id="group1" class="col-md-3">
                     <label for="rands">R</label>
                       <input class="form-control" type="number" id="rands" name="rands">
+                      <br>
                     <label for="yearWanted">in</label>
                     <select class="form-control" id="yearWanted">
                         <option>2015</option>
@@ -90,40 +149,337 @@
                       <input class="form-control" type="text" id="curValue" name="curValue" disabled>
                   </span>
                 </div>
-                <div class="mx-auto pb-2">
-                    <button class="btn btn-primary" type="button" onclick="test()"> calculate </button>
+                <div class="px-auto text-center pb-2">
+                    <button class="btn btn-primary mx-auto" type="button" onclick="test()"> calculate </button>
                 </div>
             
-            </div>
+            </div> -->
             </form>
         </div>
     </section>
     <!-- Commodity Calculator -->
     <section>
-      <div class="container-wrapper">
-        <div class="slanted1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 float-md-end">
             <div class="content">
-                <h1>This is a heading</h1>
+              <div class="row">
+                <div class="col-4">
+                  <img class="d-block mx-auto mb-4 img-fluid" src="media/sliced-bread.png">
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+              </div>
+                <h1>What do your rands buy?</h1>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Distinctio consectetur harum, velit exercitationem expedita illum numquam et a? 
-                    Rem est esse quas nulla saepe quis blanditiis vitae sed laboriosam quasi?
+                  Now You Know what your rands are worth, 
+                  Lets see how much your breads value has changed
+                  or how much more do your clothes cost. 
+                  The first example provided is bread if bread is R15 in 2010
+                </p>
+            </div>
+          </div>
+          <div class="col-md-6 float-md-start">
+            <div class="content">
+              <form class="form-inline">
+                <div class="row">
+                  <!-- <div class="col-12" >
+                    <label for="comType">category</label>
+                    <select class="form-control" id="comType"></select>
+                  </div> -->
+                  <div class="form-group row p-3">
+                    <div class="col-1"></div>
+                    <div class="col-1">
+                      <label for="comMonthSelected">in</label>
+                    </div>
+                    
+                    <div class="col-4 ">
+                      <select class="form-control" id="comMonthSelected">
+                      
+                        <option>January</option>
+                        <option>Febuary</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+
+                      </select>
+                    </div>
+                    <div class="col-4 ">
+                      <select class="form-control" id="comYearSelected">
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row p-3">
+          
+                    <div class="col-2">
+                      <label for="comValue"></label>
+                    </div>
+                    <div class="col-1">R</div>
+                    <div class="col-6">
+                      <input class="form-control" type="number" id="comRands" name="comRands">
+                    </div>
+                  </div>
+                  <div class="row form-group p-3" >
+                    <div class="col-1"></div>
+                    <div class="col-md-2">
+                      <label class="float-md-end" for="comType">worth of </label>
+                    </div>
+                    <div class="col-md-6">
+                      <select class="form-control" id="comType">
+                        <option>Bread</option>
+                        <option>Rice</option>
+                        <option>Pasta</option>
+                        <option>Cakes</option>
+                        <option>Beef</option>
+                        <option>Pork</option>
+                        <option>Lamb</option>
+                        <option>Poultry</option>
+                        <option>Fish</option>
+                        <option>Whole milk</option>
+                        <option>Low fat milk</option>
+                        <option>Yoghurt</option>
+                        <option>Cheese</option>
+                        <option>Eggs</option>
+                        <option>Margerine or other vegetable fats</option>
+                        <option>Edible oils</option>
+                        <option>Bananas</option>
+                        <option>Apples</option>
+                        <option>Cabbages</option>
+                        <option>Potatoes</option>
+                        <option>Sugar</option>
+                        <option>Choclate</option>
+                        <option>Ice cream</option>
+                        <option>Salt, Spices, and culinary herbs</option>
+                        <option>Coffee</option>
+                        <option>Tea</option>
+                        <option>Soft drinks</option>
+                        <option>Fruit juices</option>
+                        <option>Mens clothes</option>
+                        <option>Womens clothes</option>
+                        <option>Children and infant clothes</option>
+                        <option>Electricity</option>
+                        <option>Purchase of vehicles</option>
+                        <option>Petrol</option>
+                        <option>Assessment rates</option>
+                        <option>Universities, technicons and colleges</option>
+                        <option>University boarding fees</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                      </select>
+                    </div>
+                  </div>
+                  
+                  <div class="form-group row p-3">
+                    <div class="col-1"></div>
+                    <div class="col-2">
+                      <label for="comValue">is worth</label>
+                    </div>
+                    <div class="col-1">R</div>
+                    <div class="col-6">
+                      <input class="form-control" type="text" id="comValue" name="comValue" disabled>
+                    </div>
+                  </div>
+                  <div class="form-group row p-3">
+                    <div class="col-1"></div>
+                    <div class="col-1">
+                      <label for="comMonthWanted">in</label>
+                    </div>
+                    
+                    <div class="col-4 ">
+                      <select class="form-control" id="comMonthWanted">
+                      
+                        <option>January</option>
+                        <option>Febuary</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+
+                      </select>
+                    </div>
+                    <div class="col-4 ">
+                      <select class="form-control" id="comYearWanted">
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="px-auto text-center pb-2">
+                  <button class="btn btn-primary mx-auto" type="button" onclick="testCom()"> calculate </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          
+
+      </div>
+
+
+      <!-- <div class="container-wrapper">
+        <div class="col-md-6 ">
+            <div class="content">
+                <h1>What do rands buy?</h1>
+                <p>
+                  Now You Know what your rands are worth, 
+                  Lets see how much your breads value has changed
+                  or how much more do your clothes cost. 
+                  The first example provided is bread if bread is R15 in 2010
                 </p>
             </div>
         </div>
-        <div class="slanted2">
+        <div class="col-md-6">
             <div class="content">
               <form>
                 <div class="row">
-                  <div class="col-12" >
-                    <label for="comType">type of commodity</label>
+                   <div class="col-12" >
+                    <label for="comType">category</label>
                     <select class="form-control" id="comType"></select>
+                  </div> 
+                  <div class="col-6" >
+                    <label for="comType">type of commodity</label>
+                    <select class="form-control" id="comType">
+                      <option>breaad</option>
+                      <option>Rice</option>
+                      <option>Pasta</option>
+                      <option>Cakes</option>
+                      <option>Beef</option>
+                      <option>Pork</option>
+                      <option>Lamb</option>
+                      <option>Poultry</option>
+                      <option>Fish</option>
+                      <option>Whole milk</option>
+                      <option>Low fat milk</option>
+                      <option>Yoghurt</option>
+                      <option>Cheese</option>
+                      <option>Eggs</option>
+                      <option>Margerine or other vegetable fats</option>
+                      <option>Edible oils</option>
+                      <option>Bananas</option>
+                      <option>Apples</option>
+                      <option>Cabbages</option>
+                      <option>Potatoes</option>
+                      <option>Sugar</option>
+                      <option>Choclate</option>
+                      <option>Ice cream</option>
+                      <option>Salt, Spices, and culinary herbs</option>
+                      <option>Coffee</option>
+                      <option>Tea</option>
+                      <option>Soft drinks</option>
+                      <option>Fruit juices</option>
+                      <option>Mens clothes</option>
+                      <option>Womens clothes</option>
+                      <option>Children and infant clothes</option>
+                      <option>Electricity</option>
+                      <option>Purchase of vehicles</option>
+                      <option>Petrol</option>
+                      <option>Assessment rates</option>
+                      <option>Universities, technicons and colleges</option>
+                      <option>University boarding fees</option>
+                      <option></option>
+                      <option></option>
+                      <option></option>
+                      <option></option>
+                    </select>
                   </div>
-                  <div class="col-12">
+                  <div class="row col-12">
                     <label for="comYear">in</label>
-                    <select class="form-control" id="comYear"></select>
+                    <div class="col-3 ">
+                      <select class="form-control" id="comMonth">
+                      
+                        <option>January</option>
+                        <option>Febuary</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+
+                      </select>
+                    </div>
+                    <div class="col-3 ">
+                      <select class="form-control" id="comYear">
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+
+                      </select>
+                    </div>
                   </div>
-                  <div class="col-12">
+                  <div class="col-6">
                     <label for="comValue">is worth</label>
                     <input class="form-control" type="text" id="comValue" name="comValue" disabled>
                   </div>
@@ -131,8 +487,9 @@
               </form>
             </div>
         </div>
-    </div>
+    </div> -->
     </section>
+   
     <footer></footer>
 <script src="js/jquery-3.6.0.min.js" async defer></script>
 <script src="js/jquery-3.6.0.min.map" async defer></script>    
