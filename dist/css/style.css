@@ -18,6 +18,7 @@
 
 .nonLink{
   cursor:none;
+  pointer-events: none;
 }
 
 main{
